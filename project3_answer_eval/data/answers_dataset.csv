@@ -1,0 +1,5 @@
+question_id,question,ideal_answer,student_answer
+1,What is Machine Learning?,Machine learning is a branch of AI that enables systems to learn from data and improve performance without being explicitly programmed.,Machine learning allows computers to learn from data.
+2,Define Artificial Intelligence,Artificial Intelligence is the simulation of human intelligence in machines that are programmed to think and act like humans.,AI means machines behaving like humans.
+3,What is overfitting?,Overfitting happens when a model learns the noise or details of the training data so well that it performs poorly on new unseen data.,Overfitting means the model works well on training data but fails to generalize on test data.
+4,Define supervised learning.,Supervised learning is a type of machine learning where models are trained using labeled input-output pairs.,Supervised learning uses labeled data to train models.
