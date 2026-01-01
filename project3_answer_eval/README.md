@@ -2,30 +2,33 @@
 
 ## Overview  
 This Natural Language Processing (NLP) project evaluates a student’s descriptive answer by comparing it with an ideal answer.
-
-The system measures how similar the meanings of both answers are, even if different words are used.
+The system uses sentence embeddings to measure meaning similarity instead of keyword matching.
+A Streamlit web app is provided for easy interaction.
 
 ## Algorithm Used  
-Sentence Embeddings + Cosine Similarity
+Sentence Embeddings (Semantic Similarity)
+Cosine Similarity
 
 ## Tech Stack  
 Python  
-Sentence-Transformers  
+Sentence-Transformers 
+Scikit-learn
 Streamlit  
 
-## Inputs  
-Question_ID
+## Inputs
+Question ID – Used to fetch the corresponding ideal answer from the dataset
 Student answer (text)
 
 ## Output  
-Similarity score  
+Similarity score (0 to 1)
 Feedback (Correct / Partially Correct / Needs Improvement)
 
 ## Project Structure  
+data/ – Dataset containing question IDs and ideal answers
 models/ – Pre-trained sentence embedding model (weights excluded)  
 app/ – Streamlit user interface  
 train_embeddings.py – Generates sentence embeddings  
-requirements.txt – Dependencies  
+requirements.txt – Project Dependencies  
 
 ## How to Run  
 Install dependencies:  
