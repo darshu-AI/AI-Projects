@@ -22,3 +22,7 @@ Evaluates student answers using NLP techniques and semantic similarity.
 - All projects are kept public.
 - Trained model files are excluded using `.gitignore`.
 - Detailed explanations and run instructions are provided inside each project folder.
+
+## Project Ownership
+All three projects in this repository were developed individually as part of the PEP assessment.
+
