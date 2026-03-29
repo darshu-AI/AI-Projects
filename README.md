@@ -1,4 +1,4 @@
-# AI Projects – PEP Selection
+# AI Projects 
 
 This repository contains three basic AI/ML projects developed as part of the PEP selection process.
 
